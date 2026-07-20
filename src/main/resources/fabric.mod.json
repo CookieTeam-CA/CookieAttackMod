@@ -2,15 +2,13 @@
     "schemaVersion": 1,
     "id": "cookieattack",
     "version": "${version}",
-    "name": "CookieAttackMod",
-    "description": "Client-side CookieAttack mod that sets the application icon and title on startup",
+    "name": "CookieAttack 6",
+    "description": "CookieAttack 6 Mod.",
     "authors": [
-        "CookieAttack"
+        "LeonMT1"
     ],
     "contact": {
-        "homepage": "https://de.cookieattack",
-        "issues": "https://de.cookieattack/issues",
-        "sources": "https://de.cookieattack/source"
+        "homepage": "https://www.cookieattack.de"
     },
     "license": "MIT",
     "icon": "assets/icon.png",
