@@ -1,15 +1,12 @@
 {
     "required": true,
     "minVersion": "0.8",
-    "package": "net.replaceitem.dynamicappicon.mixin",
+    "package": "de.cookieattack.cookieattackmod.mixin",
     "compatibilityLevel": "JAVA_25",
     "mixins": [],
     "client": [
         "MinecraftMixin",
-        "GuiMixin",
-        "MultiplayerServerListWidgetServerEntryMixin",
-        "WorldIconAccessor",
-        "WorldListWidgetWorldEntryMixin"
+        "WindowMixin"
     ],
     "injectors": {
         "defaultRequire": 1

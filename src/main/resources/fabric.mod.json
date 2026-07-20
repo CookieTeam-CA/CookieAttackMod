@@ -1,38 +1,31 @@
 {
     "schemaVersion": 1,
-    "id": "dynamicappicon",
+    "id": "cookieattack",
     "version": "${version}",
-    "name": "Dynamic App Icon",
-    "description": "Client side mod that switches the application icon to match the current world or server icon",
+    "name": "CookieAttackMod",
+    "description": "Client-side CookieAttack mod that sets the application icon and title on startup",
     "authors": [
-        "replaceitem"
+        "CookieAttack"
     ],
     "contact": {
-        "homepage": "https://modrinth.com/mod/dynamic-app-icon",
-        "issues": "https://github.com/replaceitem/dynamic-app-icon/issues",
-        "sources": "https://github.com/replaceitem/dynamic-app-icon"
+        "homepage": "https://de.cookieattack",
+        "issues": "https://de.cookieattack/issues",
+        "sources": "https://de.cookieattack/source"
     },
     "license": "MIT",
-    "icon": "assets/dynamicappicon/icon.png",
+    "icon": "assets/icon.png",
     "environment": "client",
     "entrypoints": {
         "client": [
-            "net.replaceitem.dynamicappicon.DynamicAppIcon"
+            "de.cookieattack.cookieattackmod.CookieAttackMod"
         ]
     },
     "mixins": [
-        "dynamicappicon.mixins.json"
+        "cookieattack.mixins.json"
     ],
     "depends": {
         "minecraft": ">=26.2",
         "fabricloader": ">=0.18.4",
         "java": ">=25"
-    },
-    "custom": {
-        "modmenu": {
-            "links": {
-                "modmenu.discord": "https://discord.gg/etTDQAVSgt"
-            }
-        }
     }
 }
